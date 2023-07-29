@@ -15,15 +15,12 @@ nltk
 scikit-learn
 bert-score
 
-Interact with the chatbot by typing your messages. Type "bye" to exit the conversation.
-
 ### Usage
 
 1. Place your training data in the `train_with-reference.jsonl` file.
 
 2. Run the `teacher_bot.py` script:
-
-
+Interact with the chatbot by typing your messages. Type "bye" to exit the conversation
 ## How it Works
 
 The chatbot uses TF-IDF vectorization and cosine similarity to find the most similar response to the user's input from the training data. It also has a basic greeting mechanism to respond to greetings.
